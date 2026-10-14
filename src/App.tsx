@@ -75,6 +75,7 @@ function App() {
         <button className="icon-button nav-toggle" onClick={() => setNavOpen(!navOpen)} aria-label="Toggle navigation"><Menu /></button>
         <nav className={navOpen ? 'is-open' : ''} aria-label="Project sections">
           {nav.map(([id, label]) => <a key={id} href={`#${id}`} onClick={() => setNavOpen(false)}>{label}</a>)}
+          <a href="/concept">Simple concept</a>
           <a href="/images">Images</a>
           <a href="/plans">Drawing set</a>
           <a href="/cost">Cost plan</a>
