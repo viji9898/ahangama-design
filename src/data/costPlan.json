@@ -1,0 +1,1911 @@
+{
+  "version": "V13",
+  "estimateDate": "2026-10-14",
+  "assumptions": [
+    {
+      "label": "Estimate date",
+      "value": "2026-10-14",
+      "unit": null,
+      "basis": "Planning estimate"
+    },
+    {
+      "label": "Plot area",
+      "value": 20,
+      "unit": "perches",
+      "basis": "Prototype assumption; boundaries unknown"
+    },
+    {
+      "label": "Site area",
+      "value": 505.857,
+      "unit": "m\u00b2",
+      "basis": "20 perches x 25.29285 m\u00b2"
+    },
+    {
+      "label": "Building length",
+      "value": 16,
+      "unit": "m",
+      "basis": "Provisional"
+    },
+    {
+      "label": "Building width",
+      "value": 7,
+      "unit": "m",
+      "basis": "Provisional"
+    },
+    {
+      "label": "Ground floor area",
+      "value": 112,
+      "unit": "m\u00b2",
+      "basis": "16 x 7"
+    },
+    {
+      "label": "First floor area",
+      "value": 112,
+      "unit": "m\u00b2",
+      "basis": "Covered open-sided lounge"
+    },
+    {
+      "label": "Guestrooms",
+      "value": 4,
+      "unit": "rooms",
+      "basis": "Confirmed concept"
+    },
+    {
+      "label": "First-floor AC units",
+      "value": 2,
+      "unit": "units",
+      "basis": "Requested; requires enclosed conditioned zone"
+    },
+    {
+      "label": "Contingency",
+      "value": 0.15,
+      "unit": "fraction",
+      "basis": "Applied to priced works only"
+    },
+    {
+      "label": "Site works allowance enabled",
+      "value": 1,
+      "unit": "1=yes",
+      "basis": "Provisional planning allowances"
+    },
+    {
+      "label": "Fees and opening enabled",
+      "value": 1,
+      "unit": "1=yes",
+      "basis": "Provisional planning allowances"
+    },
+    {
+      "label": "Generator rating target",
+      "value": 15,
+      "unit": "kVA",
+      "basis": "Provisional; size by starting loads and demand"
+    },
+    {
+      "label": "First-floor enclosure upgrade",
+      "value": 0,
+      "unit": "LKR",
+      "basis": "UNPRICED; enter quote if conditioned zone created"
+    }
+  ],
+  "items": [
+    {
+      "package": "01 RC structure",
+      "item": "Excavation/backfill/site prep",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 300000,
+      "total": 300000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Footing blinding",
+      "quantity": 25,
+      "unit": "m\u00b2",
+      "rate": 1700,
+      "total": 42500,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Pad footing concrete",
+      "quantity": 10,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 320000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Pad footing reinforcement",
+      "quantity": 950,
+      "unit": "kg",
+      "rate": 520,
+      "total": 494000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Pad footing formwork",
+      "quantity": 25,
+      "unit": "m\u00b2",
+      "rate": 3300,
+      "total": 82500,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Ground tie beam concrete",
+      "quantity": 6,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 192000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Ground tie beam reinforcement",
+      "quantity": 850,
+      "unit": "kg",
+      "rate": 520,
+      "total": 442000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Ground tie beam formwork",
+      "quantity": 55,
+      "unit": "m\u00b2",
+      "rate": 3300,
+      "total": 181500,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "RC columns concrete",
+      "quantity": 3.5,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 112000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "RC columns reinforcement",
+      "quantity": 600,
+      "unit": "kg",
+      "rate": 520,
+      "total": 312000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "RC columns formwork",
+      "quantity": 50,
+      "unit": "m\u00b2",
+      "rate": 3900,
+      "total": 195000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor beam concrete",
+      "quantity": 8,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 256000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor beam reinforcement",
+      "quantity": 1300,
+      "unit": "kg",
+      "rate": 520,
+      "total": 676000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor beam formwork",
+      "quantity": 75,
+      "unit": "m\u00b2",
+      "rate": 3300,
+      "total": 247500,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor slab concrete",
+      "quantity": 16,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 512000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor slab reinforcement",
+      "quantity": 1500,
+      "unit": "kg",
+      "rate": 520,
+      "total": 780000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "First-floor slab soffit formwork",
+      "quantity": 112,
+      "unit": "m\u00b2",
+      "rate": 3300,
+      "total": 369600,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Ground slab concrete",
+      "quantity": 12,
+      "unit": "m\u00b3",
+      "rate": 30000,
+      "total": 360000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Ground slab reinforcement",
+      "quantity": 400,
+      "unit": "kg",
+      "rate": 520,
+      "total": 208000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "01 RC structure",
+      "item": "Exterior RC staircase",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 750000,
+      "total": 750000,
+      "source": "Historical BOQ / prior takeoff",
+      "qualification": "Structural engineer to validate",
+      "status": "Included"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "item": "External block walls ground",
+      "quantity": 85,
+      "unit": "m\u00b2",
+      "rate": 5702.8,
+      "total": 484738,
+      "source": "BOQ",
+      "qualification": "40 m\u00b2 hybrid does not necessarily form sealed AC zone",
+      "status": "Included"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "item": "Room partitions ground",
+      "quantity": 45,
+      "unit": "m\u00b2",
+      "rate": 4519.2,
+      "total": 203364,
+      "source": "BOQ",
+      "qualification": "40 m\u00b2 hybrid does not necessarily form sealed AC zone",
+      "status": "Included"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "item": "Bathroom partitions",
+      "quantity": 35,
+      "unit": "m\u00b2",
+      "rate": 4519.2,
+      "total": 158172,
+      "source": "BOQ",
+      "qualification": "40 m\u00b2 hybrid does not necessarily form sealed AC zone",
+      "status": "Included"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "item": "Upper kitchen/service blocks",
+      "quantity": 20,
+      "unit": "m\u00b2",
+      "rate": 4519.2,
+      "total": 90384,
+      "source": "BOQ",
+      "qualification": "40 m\u00b2 hybrid does not necessarily form sealed AC zone",
+      "status": "Included"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "item": "Upper timber/aluminium hybrid enclosure",
+      "quantity": 40,
+      "unit": "m\u00b2",
+      "rate": 37000,
+      "total": 1480000,
+      "source": "Provisional",
+      "qualification": "40 m\u00b2 hybrid does not necessarily form sealed AC zone",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Concrete bed block supports",
+      "quantity": 8,
+      "unit": "m\u00b2",
+      "rate": 4519.2,
+      "total": 36153.6,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Concrete bed tops",
+      "quantity": 1.6,
+      "unit": "m\u00b3",
+      "rate": 32000,
+      "total": 51200,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Concrete bed reinforcement",
+      "quantity": 160,
+      "unit": "kg",
+      "rate": 520,
+      "total": 83200,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Concrete bed edge formwork",
+      "quantity": 12,
+      "unit": "m\u00b2",
+      "rate": 3300,
+      "total": 39600,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Bed platform polished finish",
+      "quantity": 16,
+      "unit": "m\u00b2",
+      "rate": 4500,
+      "total": 72000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Bed platform moisture protection",
+      "quantity": 4,
+      "unit": "beds",
+      "rate": 12000,
+      "total": 48000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "King mattresses",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 65000,
+      "total": 260000,
+      "source": "Furniture BOQ",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Pillows",
+      "quantity": 8,
+      "unit": "each",
+      "rate": 6000,
+      "total": 48000,
+      "source": "Furniture BOQ",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Bedside lighting & accessories",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Curtains/privacy",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 160000,
+      "total": 160000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Linen & towels",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 200000,
+      "total": 200000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Mirrors & accessories",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 80000,
+      "total": 80000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "item": "Concrete desk/wardrobe finishes",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 320000,
+      "total": 320000,
+      "source": "BOQ/provisional",
+      "qualification": "Review lighting overlap with electrical; mirror overlap with sanitary",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Coworking tables",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 180000,
+      "total": 180000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Eight coworking chairs",
+      "quantity": 8,
+      "unit": "each",
+      "rate": 25000,
+      "total": 200000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Lounge seating",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 250000,
+      "total": 250000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Kitchen cabinets/worktop",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 350000,
+      "total": 350000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Kitchen appliances",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 300000,
+      "total": 300000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "item": "Shelves/lighting/accessories",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 120000,
+      "total": 120000,
+      "source": "Provisional",
+      "qualification": "Kitchen sink and tap not separately confirmed; lighting may overlap",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "WC and cistern",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 60000,
+      "total": 240000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "Washbasin/tap",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 60000,
+      "total": 240000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "Shower mixer/head/fittings",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 55000,
+      "total": 220000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "Bathroom mirrors",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 10000,
+      "total": 40000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "Bathroom accessories",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 30000,
+      "total": 120000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "item": "Floor drains and traps",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 12000,
+      "total": 48000,
+      "source": "BOQ/provisional",
+      "qualification": "Mirror overlap with interiors to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "06 Guestroom split AC",
+      "item": "Inverter split AC units",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 190000,
+      "total": 760000,
+      "source": "Provisional",
+      "qualification": "12k BTU concept; HVAC engineer to size",
+      "status": "Included"
+    },
+    {
+      "package": "06 Guestroom split AC",
+      "item": "Copper pipe/insulation/drain",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 35000,
+      "total": 140000,
+      "source": "Provisional",
+      "qualification": "12k BTU concept; HVAC engineer to size",
+      "status": "Included"
+    },
+    {
+      "package": "06 Guestroom split AC",
+      "item": "Installation/commissioning",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 30000,
+      "total": 120000,
+      "source": "Provisional",
+      "qualification": "12k BTU concept; HVAC engineer to size",
+      "status": "Included"
+    },
+    {
+      "package": "06 Guestroom split AC",
+      "item": "Dedicated electrical circuits",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 20000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "12k BTU concept; HVAC engineer to size",
+      "status": "Included"
+    },
+    {
+      "package": "07 Hot water",
+      "item": "50 L electric heater equipment",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 70000,
+      "total": 280000,
+      "source": "Provisional",
+      "qualification": "Verify shower recovery and electrical load",
+      "status": "Included"
+    },
+    {
+      "package": "07 Hot water",
+      "item": "Pipework/valves/insulation",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 20000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "Verify shower recovery and electrical load",
+      "status": "Included"
+    },
+    {
+      "package": "07 Hot water",
+      "item": "Electrical installation",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 20000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "Verify shower recovery and electrical load",
+      "status": "Included"
+    },
+    {
+      "package": "07 Hot water",
+      "item": "Installation/commissioning",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 10000,
+      "total": 40000,
+      "source": "Provisional",
+      "qualification": "Verify shower recovery and electrical load",
+      "status": "Included"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "item": "Water storage tank",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 160000,
+      "total": 160000,
+      "source": "Provisional",
+      "qualification": "Distribution overlap with later plumbing requires check",
+      "status": "Included"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "item": "Variable-speed booster",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 220000,
+      "total": 220000,
+      "source": "Provisional",
+      "qualification": "Distribution overlap with later plumbing requires check",
+      "status": "Included"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "item": "Pressure vessel/valves",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 90000,
+      "total": 90000,
+      "source": "Provisional",
+      "qualification": "Distribution overlap with later plumbing requires check",
+      "status": "Included"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "item": "Distribution pipework",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 180000,
+      "total": 180000,
+      "source": "Provisional",
+      "qualification": "Distribution overlap with later plumbing requires check",
+      "status": "Included"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "item": "Testing/commissioning",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Distribution overlap with later plumbing requires check",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Clay tile treated timber roof",
+      "quantity": 175,
+      "unit": "m\u00b2",
+      "rate": 22000,
+      "total": 3850000,
+      "source": "BOQ",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Reflective foil/underlay",
+      "quantity": 175,
+      "unit": "m\u00b2",
+      "rate": 1500,
+      "total": 262500,
+      "source": "Provisional",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Roof insulation",
+      "quantity": 175,
+      "unit": "m\u00b2",
+      "rate": 2500,
+      "total": 437500,
+      "source": "Provisional",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Gutters",
+      "quantity": 34.4,
+      "unit": "m",
+      "rate": 4500,
+      "total": 154800,
+      "source": "Provisional",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Downpipes/fittings",
+      "quantity": 4,
+      "unit": "sets",
+      "rate": 22000,
+      "total": 88000,
+      "source": "Provisional",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "Flashings/sealants",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 120000,
+      "total": 120000,
+      "source": "Provisional",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "item": "First-floor full slab waterproofing",
+      "quantity": 112,
+      "unit": "m\u00b2",
+      "rate": 5500,
+      "total": 616000,
+      "source": "BOQ",
+      "qualification": "Full 112 m\u00b2 waterproofing; replaces prior 20 m\u00b2 allowance",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Ground dry floor tiles",
+      "quantity": 92,
+      "unit": "m\u00b2",
+      "rate": 9468.8,
+      "total": 871129.6,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Bathroom nonslip floor tiles",
+      "quantity": 20,
+      "unit": "m\u00b2",
+      "rate": 10587.84,
+      "total": 211756.8,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Upper floor nonslip tiles",
+      "quantity": 112,
+      "unit": "m\u00b2",
+      "rate": 10587.84,
+      "total": 1185838.08,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Stair tile finish",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 200000,
+      "total": 200000,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "External plaster",
+      "quantity": 85,
+      "unit": "m\u00b2",
+      "rate": 1323.48,
+      "total": 112495.8,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Internal plaster net of tiled walls",
+      "quantity": 213,
+      "unit": "m\u00b2",
+      "rate": 1538.68,
+      "total": 327738.84,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "External paint",
+      "quantity": 85,
+      "unit": "m\u00b2",
+      "rate": 1300,
+      "total": 110500,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Internal paint net of tiled walls",
+      "quantity": 213,
+      "unit": "m\u00b2",
+      "rate": 1538.68,
+      "total": 327738.84,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Ground soffit paint",
+      "quantity": 112,
+      "unit": "m\u00b2",
+      "rate": 1600,
+      "total": 179200,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Bathroom wall tiles",
+      "quantity": 72,
+      "unit": "m\u00b2",
+      "rate": 10587.84,
+      "total": 762324.48,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "item": "Bathroom floor waterproofing",
+      "quantity": 20,
+      "unit": "m\u00b2",
+      "rate": 5500,
+      "total": 110000,
+      "source": "BOQ/provisional",
+      "qualification": "First-floor waterproofing only in roof package; avoid double count",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Guestroom timber entrance doors",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 95000,
+      "total": 380000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Bathroom doors",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 35000,
+      "total": 140000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Guestroom aluminium windows",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 85000,
+      "total": 340000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Mosquito screens",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 18000,
+      "total": 72000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Security lock upgrade",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 18000,
+      "total": 72000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Kitchen/service door",
+      "quantity": 1,
+      "unit": "each",
+      "rate": 65000,
+      "total": 65000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "First-floor guardrails",
+      "quantity": 18,
+      "unit": "m",
+      "rate": 18040,
+      "total": 324720,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Stair handrails",
+      "quantity": 6,
+      "unit": "m",
+      "rate": 15744,
+      "total": 94464,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "item": "Protective coating/touchup",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 60000,
+      "total": 60000,
+      "source": "BOQ/provisional",
+      "qualification": "Check kitchen door necessity and locks overlap",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Cold water distribution",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 160000,
+      "total": 160000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Hot-water connections",
+      "quantity": 4,
+      "unit": "rooms",
+      "rate": 20000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Soil/waste/vent pipes",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 220000,
+      "total": 220000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Kitchen waste/grease",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 65000,
+      "total": 65000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Inspection chambers/drains",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 180000,
+      "total": 180000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Testing/valves",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 75000,
+      "total": 75000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Septic tank construction",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 350000,
+      "total": 350000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Septic connections/covers",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 90000,
+      "total": 90000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Effluent disposal/soakaway",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 180000,
+      "total": 180000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Wastewater testing/vent",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 40000,
+      "total": 40000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Stormwater drains/pipes",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 110000,
+      "total": 110000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Stormwater catch pits",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 60000,
+      "total": 60000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "item": "Stormwater discharge",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 80000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "Septic feasibility subject to groundwater/soil/approvals",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Guestroom wiring/sockets",
+      "quantity": 4,
+      "unit": "rooms",
+      "rate": 80000,
+      "total": 320000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Bedroom/bedside lighting",
+      "quantity": 4,
+      "unit": "rooms",
+      "rate": 40000,
+      "total": 160000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Bathroom lights/exhaust",
+      "quantity": 4,
+      "unit": "rooms",
+      "rate": 25000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Room electrical protection",
+      "quantity": 4,
+      "unit": "rooms",
+      "rate": 20000,
+      "total": 80000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Coworking power",
+      "quantity": 8,
+      "unit": "positions",
+      "rate": 15000,
+      "total": 120000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Lounge lighting",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 120000,
+      "total": 120000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Ceiling fans",
+      "quantity": 4,
+      "unit": "each",
+      "rate": 25000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Kitchen power",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Main DB/breakers",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 180000,
+      "total": 180000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Main cabling/conduits",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 150000,
+      "total": 150000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Earthing/surge",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 90000,
+      "total": 90000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Emergency lighting/fire alarms",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 110000,
+      "total": 110000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Testing/certification",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 70000,
+      "total": 70000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Router/switch/cabinet",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 65000,
+      "total": 65000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "WiFi AP/data cabling",
+      "quantity": 3,
+      "unit": "AP",
+      "rate": 35000,
+      "total": 105000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "Outdoor lighting",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "13 Electrical communications",
+      "item": "CCTV",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "Provisional",
+      "qualification": "Lighting/AC circuits/water heater circuit overlap to reconcile",
+      "status": "Included"
+    },
+    {
+      "package": "14 Generator backup NEW",
+      "item": "Diesel generator ~15 kVA acoustic canopy",
+      "quantity": 1,
+      "unit": "set",
+      "rate": 1800000,
+      "total": 1800000,
+      "source": "NEW provisional",
+      "qualification": "15 kVA NOT validated; 4 AC + 2 upstairs AC + pumps + heaters require load and sequencing assessment",
+      "status": "Included"
+    },
+    {
+      "package": "14 Generator backup NEW",
+      "item": "Automatic transfer switch and protection",
+      "quantity": 1,
+      "unit": "set",
+      "rate": 350000,
+      "total": 350000,
+      "source": "NEW provisional",
+      "qualification": "15 kVA NOT validated; 4 AC + 2 upstairs AC + pumps + heaters require load and sequencing assessment",
+      "status": "Included"
+    },
+    {
+      "package": "14 Generator backup NEW",
+      "item": "Plinth, cabling, exhaust and installation",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 200000,
+      "total": 200000,
+      "source": "NEW provisional",
+      "qualification": "15 kVA NOT validated; 4 AC + 2 upstairs AC + pumps + heaters require load and sequencing assessment",
+      "status": "Included"
+    },
+    {
+      "package": "14 Generator backup NEW",
+      "item": "Initial fuel/testing/commissioning",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 100000,
+      "total": 100000,
+      "source": "NEW provisional",
+      "qualification": "15 kVA NOT validated; 4 AC + 2 upstairs AC + pumps + heaters require load and sequencing assessment",
+      "status": "Included"
+    },
+    {
+      "package": "15 First-floor AC NEW",
+      "item": "Upper-floor inverter split AC",
+      "quantity": 2,
+      "unit": "each",
+      "rate": 210000,
+      "total": 420000,
+      "source": "NEW provisional",
+      "qualification": "UNSUITABLE for fully open-sided lounge; enclosed conditioned zone required",
+      "status": "Included"
+    },
+    {
+      "package": "15 First-floor AC NEW",
+      "item": "Refrigerant pipes/drains",
+      "quantity": 2,
+      "unit": "sets",
+      "rate": 35000,
+      "total": 70000,
+      "source": "NEW provisional",
+      "qualification": "UNSUITABLE for fully open-sided lounge; enclosed conditioned zone required",
+      "status": "Included"
+    },
+    {
+      "package": "15 First-floor AC NEW",
+      "item": "Installation/commissioning",
+      "quantity": 2,
+      "unit": "sets",
+      "rate": 30000,
+      "total": 60000,
+      "source": "NEW provisional",
+      "qualification": "UNSUITABLE for fully open-sided lounge; enclosed conditioned zone required",
+      "status": "Included"
+    },
+    {
+      "package": "15 First-floor AC NEW",
+      "item": "Dedicated power circuits",
+      "quantity": 2,
+      "unit": "sets",
+      "rate": 25000,
+      "total": 50000,
+      "source": "NEW provisional",
+      "qualification": "UNSUITABLE for fully open-sided lounge; enclosed conditioned zone required",
+      "status": "Included"
+    },
+    {
+      "package": "16 External works allowances",
+      "item": "Site clearing/levelling (incremental)",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 450000,
+      "total": 450000,
+      "source": "Planning midpoint",
+      "qualification": "20 perches; site geometry unconfirmed; check excavation overlap",
+      "status": "Included"
+    },
+    {
+      "package": "16 External works allowances",
+      "item": "Parking/pathways/paving",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 750000,
+      "total": 750000,
+      "source": "Planning midpoint",
+      "qualification": "20 perches; site geometry unconfirmed; check excavation overlap",
+      "status": "Included"
+    },
+    {
+      "package": "16 External works allowances",
+      "item": "Boundary fencing/gate",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 900000,
+      "total": 900000,
+      "source": "Planning midpoint",
+      "qualification": "20 perches; site geometry unconfirmed; check excavation overlap",
+      "status": "Included"
+    },
+    {
+      "package": "16 External works allowances",
+      "item": "Landscape/outdoor furniture",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 425000,
+      "total": 425000,
+      "source": "Planning midpoint",
+      "qualification": "20 perches; site geometry unconfirmed; check excavation overlap",
+      "status": "Included"
+    },
+    {
+      "package": "16 External works allowances",
+      "item": "Utility connections",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 425000,
+      "total": 425000,
+      "source": "Planning midpoint",
+      "qualification": "20 perches; site geometry unconfirmed; check excavation overlap",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Survey/soil investigations",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 300000,
+      "total": 300000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Architecture/engineering/QS fees",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 2250000,
+      "total": 2250000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Permits/approvals",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 350000,
+      "total": 350000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Fire/accessibility additional provision",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 400000,
+      "total": 400000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Pre-opening and supplies",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 500000,
+      "total": 500000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "item": "Initial working capital",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 900000,
+      "total": 900000,
+      "source": "Planning midpoint",
+      "qualification": "Working capital is development funding, not construction work",
+      "status": "Included"
+    },
+    {
+      "package": "18 Enclosure upgrade unpriced",
+      "item": "Extra airtight enclosure for conditioned upstairs zone",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 0,
+      "total": 0,
+      "source": "UNPRICED",
+      "qualification": "Enter verified quote in rate cell; not covered by open-sided hybrid screens",
+      "status": "Included"
+    }
+  ],
+  "packages": [
+    {
+      "package": "01 RC structure",
+      "base": 6832600,
+      "contingency": 1024890,
+      "total": 7857490,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "02 Blockwork & enclosure",
+      "base": 2416658,
+      "contingency": 362498.7,
+      "total": 2779156.7,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "03 Guestroom interiors",
+      "base": 1498153.6,
+      "contingency": 224723.04,
+      "total": 1722876.6400000001,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "04 Upper lounge & kitchen interiors",
+      "base": 1400000,
+      "contingency": 210000,
+      "total": 1610000,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "05 Bathroom fixtures",
+      "base": 908000,
+      "contingency": 136200,
+      "total": 1044200,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "06 Guestroom split AC",
+      "base": 1100000,
+      "contingency": 165000,
+      "total": 1265000,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "07 Hot water",
+      "base": 480000,
+      "contingency": 72000,
+      "total": 552000,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "08 Water pressure & storage",
+      "base": 750000,
+      "contingency": 112500,
+      "total": 862500,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "09 Roof & terrace waterproofing",
+      "base": 5528800,
+      "contingency": 829320,
+      "total": 6358120,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "10 Flooring plaster paint",
+      "base": 4398722.4399999995,
+      "contingency": 659808.3659999999,
+      "total": 5058530.806,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "11 Doors windows guardrails",
+      "base": 1548184,
+      "contingency": 232227.6,
+      "total": 1780411.6,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "12 Plumbing wastewater stormwater",
+      "base": 1690000,
+      "contingency": 253500,
+      "total": 1943500,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "13 Electrical communications",
+      "base": 2070000,
+      "contingency": 310500,
+      "total": 2380500,
+      "basis": "Historical BOQ and/or provisional"
+    },
+    {
+      "package": "14 Generator backup NEW",
+      "base": 2450000,
+      "contingency": 367500,
+      "total": 2817500,
+      "basis": "New provisional"
+    },
+    {
+      "package": "15 First-floor AC NEW",
+      "base": 600000,
+      "contingency": 90000,
+      "total": 690000,
+      "basis": "New provisional"
+    },
+    {
+      "package": "16 External works allowances",
+      "base": 2950000,
+      "contingency": 442500,
+      "total": 3392500,
+      "basis": "New provisional"
+    },
+    {
+      "package": "17 Fees approvals & opening",
+      "base": 4700000,
+      "contingency": 705000,
+      "total": 5405000,
+      "basis": "New provisional"
+    },
+    {
+      "package": "18 Enclosure upgrade unpriced",
+      "base": 0,
+      "contingency": 0,
+      "total": 0,
+      "basis": "New provisional"
+    }
+  ],
+  "totals": {
+    "base": 41321118.04,
+    "contingency": 6198167.706,
+    "total": 47519285.746
+  },
+  "comparison": [
+    {
+      "label": "Prior scope, recalculated",
+      "total": 35214285.746
+    },
+    {
+      "label": "Generator backup (new)",
+      "total": 2817500
+    },
+    {
+      "label": "First-floor AC (new)",
+      "total": 690000
+    },
+    {
+      "label": "External works allowance",
+      "total": 3392500
+    },
+    {
+      "label": "Fees, approvals, pre-opening & WC",
+      "total": 5405000
+    },
+    {
+      "label": "Enclosure upgrade (unpriced)",
+      "total": 0
+    }
+  ],
+  "risks": [
+    {
+      "topic": "Upstairs AC",
+      "status": "Design conflict",
+      "action": "Open-sided covered lounge cannot be efficiently cooled by split AC. Define enclosed coworking zone and quote additional glazing/insulation; budget zero placeholder."
+    },
+    {
+      "topic": "Generator sizing",
+      "status": "Unverified",
+      "action": "Engineer to calculate simultaneous demand, motor starting current, AC inverter load, water heaters, pump and essential/non-essential circuits. 15 kVA only an allowance."
+    },
+    {
+      "topic": "Generator fuel and operating cost",
+      "status": "Excluded",
+      "action": "Fuel consumption, servicing, fuel storage compliance, noise and exhaust siting not in construction estimate."
+    },
+    {
+      "topic": "First-floor enclosure",
+      "status": "Potential duplication",
+      "action": "Prior 40 m\u00b2 hybrid screens/aluminium allowance may not be sealed; reconcile if replacing with airtight glazing."
+    },
+    {
+      "topic": "Lighting overlaps",
+      "status": "Potential duplication",
+      "action": "Guestroom interior lighting 100k + electrical bedroom lighting 160k; upper interiors lighting allowance overlaps 120k lounge lighting."
+    },
+    {
+      "topic": "Bathroom mirrors",
+      "status": "Potential duplication",
+      "action": "Guestroom mirrors/accessories 80k and bathroom mirror fixtures 40k; clarify scope."
+    },
+    {
+      "topic": "Piping overlaps",
+      "status": "Potential duplication",
+      "action": "Water-pressure distribution 180k, plumbing cold-water distribution 160k and hot water connections 80k; reconcile pipe lengths."
+    },
+    {
+      "topic": "Roof waterproofing",
+      "status": "Revised",
+      "action": "Full 112 m\u00b2 upper floor waterproofing now included ONCE under roof; earlier 20 m\u00b2 is not additional."
+    },
+    {
+      "topic": "Stairs",
+      "status": "Potential overlap",
+      "action": "RC stair 750k, tile finish 200k, handrails 94,464 are intended separate; verify inclusions."
+    },
+    {
+      "topic": "External works",
+      "status": "Site unverified",
+      "action": "20 perches, road frontage and slope unknown; fencing, parking, septic layout subject to survey."
+    },
+    {
+      "topic": "Soil and wastewater",
+      "status": "Unverified",
+      "action": "Soil bearing, permeability, groundwater, septic approvals and water source to be established."
+    },
+    {
+      "topic": "Historical BOQ rates",
+      "status": "Not current market prices",
+      "action": "BOQ from supplied Ahangama Option 2 / Breakdown; confirm quote dates, contractor prices and VAT."
+    },
+    {
+      "topic": "Land cost",
+      "status": "Excluded",
+      "action": "Add purchase price or existing land equity in finance model."
+    },
+    {
+      "topic": "Taxes and financing",
+      "status": "Excluded",
+      "action": "VAT/taxes, loan interest, fees, escalation, land transfer costs, insurance and additional statutory costs require separate model."
+    },
+    {
+      "topic": "Contingency",
+      "status": "Model convention",
+      "action": "15% added to all packages for planning, including allowances and working capital; finance-stage model should separate construction contingency from funding reserves."
+    },
+    {
+      "topic": "Budget comparison",
+      "status": "Caution",
+      "action": "This workbook recalculates every prior line item. Minor deviations from previously quoted Rs 35.214m are expected due to rounding and earlier arithmetic."
+    }
+  ],
+  "sources": [
+    {
+      "source": "Ahangama -Option 2.pdf",
+      "location": "Uploaded project PDF",
+      "use": "Concrete, rebar, block, tiles, plaster, paint, roof, railings, sanitary",
+      "reliability": "Historical source BOQ; not a current quote"
+    },
+    {
+      "source": "Breakdown.pdf",
+      "location": "Uploaded project PDF",
+      "use": "King mattress Rs 65,000; pillows Rs 6,000",
+      "reliability": "Historical source BOQ"
+    },
+    {
+      "source": "Project conversation V1-V12",
+      "location": "This project conversation",
+      "use": "Prior allowances and scope decisions",
+      "reliability": "Conceptual; not independently verified"
+    },
+    {
+      "source": "New generator allowance",
+      "location": "Model input",
+      "use": "15 kVA generator/ATS/installation/fuel",
+      "reliability": "Provisional; no supplier quote"
+    },
+    {
+      "source": "New first-floor AC allowance",
+      "location": "Model input",
+      "use": "Two split AC systems; conditioned enclosure not included",
+      "reliability": "Provisional; open-air incompatibility"
+    },
+    {
+      "source": "External works and fees",
+      "location": "Prior project discussion",
+      "use": "Midpoints of previously discussed ranges",
+      "reliability": "Provisional; no site survey"
+    }
+  ]
+}

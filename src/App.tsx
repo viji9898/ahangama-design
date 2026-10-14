@@ -5,6 +5,7 @@ import {
 } from 'lucide-react'
 import './App.css'
 import { ConceptPlan } from './components/ConceptPlan'
+import { StructuralConcept } from './components/StructuralConcept'
 import type { AreaClass, Floor, RegisterRecord, Space, Status } from './data/project'
 import { calculateAreaTotals, calculateRectangularSiteArea } from './data/projectStore'
 import { useProject } from './hooks/useProject'
@@ -14,7 +15,7 @@ const imageHigh = 'https://customer-apps-techhq.s3.eu-west-2.amazonaws.com/ahang
 
 const nav = [
   ['overview', 'Overview'], ['site', 'Site & constraints'], ['design', 'Design & plans'],
-  ['areas', 'Areas'], ['materials', 'Materials'], ['coordination', 'Consultants'],
+  ['areas', 'Areas'], ['materials', 'Materials'], ['structure', 'Structure'], ['coordination', 'Consultants'],
   ['register', 'Decisions'], ['roadmap', 'Roadmap'],
 ]
 
@@ -74,6 +75,9 @@ function App() {
         <button className="icon-button nav-toggle" onClick={() => setNavOpen(!navOpen)} aria-label="Toggle navigation"><Menu /></button>
         <nav className={navOpen ? 'is-open' : ''} aria-label="Project sections">
           {nav.map(([id, label]) => <a key={id} href={`#${id}`} onClick={() => setNavOpen(false)}>{label}</a>)}
+          <a href="/images">Images</a>
+          <a href="/plans">Drawing set</a>
+          <a href="/cost">Cost plan</a>
         </nav>
         <div className="storage-state"><HardDrive size={15} /><span>Local workspace</span></div>
       </header>
@@ -169,20 +173,22 @@ function App() {
           </div>
         </section>
 
+        <StructuralConcept />
+
         <section id="coordination" className="content-section coordination-section">
-          <SectionHeading number="06" eyebrow="Consultant engagement" title="A focused question for each discipline" intro="Professional input should protect the concept’s simplicity while exposing missing information and hidden cost." />
+          <SectionHeading number="07" eyebrow="Consultant engagement" title="A focused question for each discipline" intro="Professional input should protect the concept’s simplicity while exposing missing information and hidden cost." />
           <div className="discipline-list">{project.coordination.map((item, index) => <details key={item.id} open={index === 0}><summary><span>{String(index + 1).padStart(2, '0')}</span><strong>{item.discipline}</strong><em>{item.status}</em><ChevronRight /></summary><div className="discipline-body"><div className="lead-question"><span>Primary question</span><p>{item.prompt}</p></div><dl><div><dt>Responsible</dt><dd>{item.responsibility}</dd></div><div><dt>Dependency</dt><dd>{item.dependency}</dd></div><div><dt>Impact</dt><dd>{item.impact}</dd></div></dl><label>Consultant response / recommendations<textarea rows={4} value={item.notes} placeholder="Add review notes, risks or recommendations…" onChange={(event) => update((current) => ({ ...current, coordination: current.coordination.map((record) => record.id === item.id ? { ...record, notes: event.target.value } : record) }))} /></label><div className="inline-fields"><label>Status<select value={item.status} onChange={(event) => update((current) => ({ ...current, coordination: current.coordination.map((record) => record.id === item.id ? { ...record, status: event.target.value as typeof item.status } : record) }))}><option>Open</option><option>In review</option><option>Resolved</option></select></label><label>Target date<input type="date" value={item.targetDate} onChange={(event) => update((current) => ({ ...current, coordination: current.coordination.map((record) => record.id === item.id ? { ...record, targetDate: event.target.value } : record) }))} /></label></div></div></details>)}</div>
           <p className="future-note"><Plus size={17} /> Expandable later: planning, operations, feasibility and financing</p>
         </section>
 
         <section id="register" className="content-section register-section">
-          <SectionHeading number="07" eyebrow="Project register" title="Know what is true, and what is not" intro="Editing a value does not confirm it. Sources, responsibility and status remain explicit." />
+          <SectionHeading number="08" eyebrow="Project register" title="Know what is true, and what is not" intro="Editing a value does not confirm it. Sources, responsibility and status remain explicit." />
           <div className="register-tools"><div className="filter-row">{['All', 'Confirmed information', 'Provisional assumption', 'Open question', 'Recorded decision'].map((filter) => <button className={registerFilter === filter ? 'active' : ''} key={filter} onClick={() => setRegisterFilter(filter)}>{filter}</button>)}</div><button className="primary-button" onClick={addRecord}><Plus /> Add record</button></div>
           <div className="register-layout"><div className="record-list">{filteredRecords.map((record) => <button key={record.id} className={selectedRecord === record.id ? 'active' : ''} onClick={() => setSelectedRecord(record.id)}><span><strong>{record.id}</strong><StatusMark status={record.status} /></span><h3>{record.title}</h3><p>{record.discipline} · {record.priority} priority</p></button>)}</div>{activeRecord && <div className="record-editor"><div className="editor-grid"><label>Record type<select value={activeRecord.type} onChange={(event) => updateRecord(activeRecord.id, { type: event.target.value as RegisterRecord['type'] })}><option>Confirmed information</option><option>Provisional assumption</option><option>Open question</option><option>Recorded decision</option></select></label><label>Status<select value={activeRecord.status} onChange={(event) => updateRecord(activeRecord.id, { status: event.target.value as Status })}><option value="confirmed">Confirmed</option><option value="provisional">Provisional</option><option value="open">Open</option><option value="recorded">Recorded</option></select></label></div><label>Title<input value={activeRecord.title} onChange={(event) => updateRecord(activeRecord.id, { title: event.target.value })} /></label><label>Description<textarea rows={4} value={activeRecord.description} onChange={(event) => updateRecord(activeRecord.id, { description: event.target.value })} /></label><div className="editor-grid"><label>Discipline<input value={activeRecord.discipline} onChange={(event) => updateRecord(activeRecord.id, { discipline: event.target.value })} /></label><label>Priority<select value={activeRecord.priority} onChange={(event) => updateRecord(activeRecord.id, { priority: event.target.value as RegisterRecord['priority'] })}><option>Critical</option><option>High</option><option>Normal</option></select></label><label>Responsible party<input value={activeRecord.responsible} onChange={(event) => updateRecord(activeRecord.id, { responsible: event.target.value })} /></label><label>Target resolution<input type="date" value={activeRecord.targetDate} onChange={(event) => updateRecord(activeRecord.id, { targetDate: event.target.value })} /></label></div><label>Source or rationale<input value={activeRecord.source} onChange={(event) => updateRecord(activeRecord.id, { source: event.target.value })} /></label><label>Impact on design, cost or feasibility<textarea rows={2} value={activeRecord.impact} onChange={(event) => updateRecord(activeRecord.id, { impact: event.target.value })} /></label><p className="record-dates">Created {activeRecord.createdAt} · Updated {activeRecord.updatedAt}</p></div>}</div>
         </section>
 
         <section id="roadmap" className="content-section roadmap-section">
-          <SectionHeading number="08" eyebrow="Development pathway" title="Resolve uncertainty in the right order" intro="Only the concept stage is active. Later stages describe required work without inventing costs, projections or specifications." />
+          <SectionHeading number="09" eyebrow="Development pathway" title="Resolve uncertainty in the right order" intro="Only the concept stage is active. Later stages describe required work without inventing costs, projections or specifications." />
           <ol className="roadmap">{[
             ['Concept', 'Active', 'Brief, references, provisional plans, area schedule and assumptions', 'Consultant-ready concept package'],
             ['Consultant review', 'Next', 'Architecture, structure, MEP, interiors and cost-planning feedback', 'Coordinated recommendations and closed critical questions'],
